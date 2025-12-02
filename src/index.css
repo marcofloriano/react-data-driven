@@ -1,0 +1,73 @@
+body {
+  font-family: 'Inter', 'Lucida Sans', 'Lucida Sans Regular';
+  margin: 0;
+}
+
+header {
+  min-height: 120px;
+  background-color: #F55A5A;
+  color: #FFFFFF;
+  /* text-align: center; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+header > h1 {
+  font-weight: 400;
+}
+
+header > img {
+  padding: 10px;
+  width: 50px;
+}
+
+article {
+  max-width: 960px; /* Or any desired maximum width */
+  margin: 0 auto; /* Centers the div horizontally */
+  padding: 4%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+article .image img {
+  width: 200px;
+  margin-right: 2rem;
+}
+
+article .body .location {
+  display: flex; 
+  margin-bottom: -30px;
+}
+
+article .body .location .marker img {
+  width: 15px;
+  margin-right: 10px;
+}
+
+article .body .location .city {
+  font-weight: 400;
+  margin-right: 10px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+article .body .location .map a:link, 
+a:visited,
+a:hover,
+a:active {
+
+  color: #918E9B;
+  text-decoration: underline;
+}
+
+article .body .title {
+  font-size: 30px;
+}
+
+article .body .dates {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
