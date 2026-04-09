@@ -1,4 +1,5 @@
 export default function Entry(props) {
+    
     return (
         <article>
             <div className="image">
